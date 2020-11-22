@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 모든 페이지에 들어가는 공통서식*/
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    -ms-font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+    color: #333333;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.clearfix{
+    clear: both;
+    display: block;
+    content: "";
+}

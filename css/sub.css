@@ -1,0 +1,121 @@
+@charset "UTF-8";
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #202020; }
+
+/* mywork 서브페이지 서식 */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #464646; }
+  header h2 {
+    padding: 40px;
+    color: #fff;
+    font-size: 2rem; }
+    header h2 .txt_hanwha {
+      color: #F06E1A; }
+    header h2 .txt_bbq {
+      color: #d31a23; }
+    header h2 .txt_reebok {
+      color: #3b89ff; }
+    header h2 .txt_burger {
+      color: #e0b726; }
+    header h2 .txt_suzi {
+      color: #ff93c5; }
+  header .linkBox {
+    width: 200px;
+    margin: 20px 20px 20px 40px; }
+    header .linkBox a {
+      display: inline-block;
+      text-align: center;
+      color: #000;
+      font-weight: bold;
+      padding: 10px;
+      background: #fff;
+      transition: 0.5s;
+      border-radius: 5px; }
+    header .linkBox .h_link:hover {
+      color: #fff !important;
+      background: #F06E1A !important; }
+    header .linkBox .bbq_link:hover {
+      color: #fff !important;
+      background: #d31a23 !important; }
+    header .linkBox .reebok_link:hover {
+      color: #fff !important;
+      background: #3b89ff !important; }
+    header .linkBox .burger_link:hover {
+      color: #fff !important;
+      background: #e0b726 !important; }
+    header .linkBox .suzi_link:hover {
+      color: #fff !important;
+      background: #ff93c5 !important; }
+
+section {
+  padding-top: 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px; }
+  section .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: none; }
+    section .container .topBox {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0px 5px; }
+      section .container .topBox img {
+        width: 450px;
+        margin: 0px auto;
+        border-radius: 5px; }
+      section .container .topBox p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 20px; }
+        section .container .topBox p span {
+          background: #fff;
+          color: #000;
+          font-weight: bold; }
+    section .container .bottomBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 4%; }
+      section .container .bottomBox div {
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        margin: 0px auto; }
+        section .container .bottomBox div p {
+          color: #fff;
+          font-size: 1rem; }
+        section .container .bottomBox div .h_bt {
+          color: #F06E1A;
+          font-size: 1.2rem; }
+        section .container .bottomBox div .bbq_bt {
+          color: #d31a23;
+          font-size: 1.2rem; }
+        section .container .bottomBox div .reebok_bt {
+          color: #3b89ff;
+          font-size: 1.2rem; }
+        section .container .bottomBox div .burger_bt {
+          color: #e0b726;
+          font-size: 1.2rem; }
+        section .container .bottomBox div .suzi_bt {
+          color: #ff93c5;
+          font-size: 1.2rem; }
+      section .container .bottomBox div:first-child {
+        margin-bottom: 30px; }
+
+/*# sourceMappingURL=sub.css.map */
