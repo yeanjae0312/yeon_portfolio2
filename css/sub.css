@@ -1,17 +1,35 @@
 @charset "UTF-8";
 body {
+  font-family: 'Nanum Gothic', sans-serif;
+  -ms-font-family: 'Nanum Gothic', sans-serif;
+  -webkit-display: flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
   flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   background: #202020; }
 
 /* mywork 서브페이지 서식 */
 header {
+  -webkit-display: flex;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
   justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   border-bottom: 1px solid #464646; }
   header h2 {
     padding: 40px;
@@ -58,20 +76,40 @@ header {
 section {
   padding-top: 40px;
   box-sizing: border-box;
+  -webkit-display: flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
   align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
   margin-bottom: 100px; }
   section .container {
+    -webkit-display: flex;
+    display: -ms-flexbox;
     display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     justify-content: center;
-    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     display: none; }
     section .container .topBox {
+      -webkit-display: flex;
+      display: -ms-flexbox;
       display: flex;
       align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
       padding: 0px 5px; }
       section .container .topBox img {
         width: 450px;
@@ -87,10 +125,18 @@ section {
           color: #000;
           font-weight: bold; }
     section .container .bottomBox {
+      -webkit-display: flex;
+      display: -ms-flexbox;
       display: flex;
       justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
       align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
       flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
       margin-top: 4%; }
       section .container .bottomBox div {
         width: 300px;

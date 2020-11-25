@@ -5,6 +5,7 @@ $(function(){
         $('.popup').animate({'top':'25%'},300).delay(100).animate({'top':'-100%','opacity':'0'},500);
     });
 
+
     //스킬바
     $('.skills').hover(function(){
       $('.skills').addClass('skill_hover');

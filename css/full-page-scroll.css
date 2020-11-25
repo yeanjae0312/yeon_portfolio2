@@ -34,11 +34,11 @@ body, html {
 
 .dots li a {
 	padding: 10px;
-	width: 4px;
+	width: 30px;
 	height: 5px;
 	display: block;
+	
 }
-
 
 
 .dots li a:before {

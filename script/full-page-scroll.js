@@ -82,9 +82,52 @@
 		for (var i = 0; i < sections.length; i++) {
 			var li = document.createElement('li');
 			var a = document.createElement('a');
+			var span = document.createElement('span');
 		
-			a.setAttribute('href', '#' + i);			
+			a.setAttribute('href', '#' + i);
+
+			a.appendChild(span);
+			if(i==0){
+				span.append('TOP');
+				span.style.position = "absolute";
+				span.style.left = "-60%";
+				span.style.top = "7px";
+				span.style.color = "rgb(197, 197, 197)";
+				span.style.fontFamily = '"Nanum Gothic", "sans-serif"';
+			}else if(i==1){
+				span.append('ABOUT ME');
+				span.style.position = "absolute";
+				span.style.left = "-160%";
+				span.style.top = "30px";
+				span.style.color = "rgb(197, 197, 197)";
+				span.style.fontFamily = '"Nanum Gothic", "sans-serif"';
+			}else if(i==2){
+				span.append('SKILLS');
+				span.style.position = "absolute";
+				span.style.left = "-90%";
+				span.style.top = "55px";
+				span.style.color = "rgb(197, 197, 197)";
+				span.style.fontFamily = '"Nanum Gothic", "sans-serif"';
+			}
+			else if(i==3){
+				span.append('MY WORK');
+				span.style.position = "absolute";
+				span.style.left = "-150%";
+				span.style.top = "80px";
+				span.style.color = "rgb(197, 197, 197)";
+				span.style.fontFamily = '"Nanum Gothic", "sans-serif"';
+			}
+			else if(i==4){
+				span.append('CONTACT ME');
+				span.style.position = "absolute";
+				span.style.left = "-200%";
+				span.style.top = "103px";
+				span.style.color = "rgb(197, 197, 197)";
+				span.style.fontFamily = '"Nanum Gothic", "sans-serif"';
+			}
+
 			li.appendChild(a);
+			
 			_self.ul.appendChild(li);
 		}
 
